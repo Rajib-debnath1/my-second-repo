@@ -5,17 +5,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My second repo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <header class="blogs">
-        <div class="blog">
-            <h4>Tour of Coxbazar</h4> 
-            <div>
-                
-            <img src="assets/images/Rajib-min.jpg" width="250" height="200"alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit rem expedita quo, veritatis nihil aut nulla totam pariatur fugiat iste dolore beatae mollitia dicta, quam voluptates minus consequuntur ullam consequatur.</p>
-            </div>   
-        </div>
+   <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="form.html">Form</a>
+                    <ul class="dropdown">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="#">service</a></li>
+                        <li><a href="#">semantic</a></li>
+                    </ul>
+                </li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="#">service</a>
+                    <ul class="dropdown">
+                        <li><a href="index.html">web</a></li>
+                        <li><a href="form.html">develop</a></li>
+                        <li><a href="table.html">markating</a>
+                            <ul class="dropdown">
+                                <li><a href="index.html">facebook</a></li>
+                                <li><a href="form.html">yoytube</a></li>
+                                <li><a href="table.html">instragram</a></li>
+                                <li><a href="#">twiter</a></li>
+                                <li><a href="#">whatsup</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">seo</a></li>
+                        <li><a href="#">grapicx</a></li>
+                    </ul>
+
+                </li>
+                <li><a href="#">semantic</a></li>
+            </ul>
+        </nav>
    </header>
+   <form action="">
+        <h3>Welcome to Jamal er ma pitha ghor</h3>
+        <label for="name">Your Name: <input type="text" id="name" placeholder="Your Name">
+
+        </label>
+        <label for="email">Your Email: <input type="text" id="email" placeholder="Your Email">
+
+        </label>
+        <label for="number">Your Mobile: <input type="number" id="number" placeholder="Your Phone Number">
+
+        </label>
+        <fieldset>
+            <legend>pick One Pitha</legend>
+                <input type="radio" id="chitoy" name="pitha">
+                <label for="chitoy" class="line">chitoy</label><br>
+                <input type="radio" id="vapa" name="pitha">
+                <label for="vapa" class="line">vapa</label><br>
+                <input type="radio" id="puly" name="pitha">
+                <label for="puly" class="line">puly</label>
+                
+
+            
+        </fieldset>
+        <fieldset>
+            <legend>Select one or more vortas</legend>
+            <input type="checkbox" id="shutki" name="vorta">
+            <label for="shutki" class="line">shutki</label><br>
+            <input type="checkbox" id="sorisa" name="vorta">
+            <label for="sorisa" class="line">sorisa</label><br>
+            <input type="checkbox" id="dal" name="vorta">
+            <label for="dal" class="line">dal</label>
+        </fieldset>
+        <fieldset>
+            <legend>say for us</legend>
+            <textarea name="" id="" cols="50" rows="3"></textarea>
+        </fieldset>
+        <input type="reset">
+        <input type="submit">
+        
+   </form>
+
+        <table>
+            <thead>
+               <tr>
+                <th>No.</th>
+                <th>Full Name</th>
+                <th>company</th>
+                <th>Salary</th>
+               </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>mark jugarbarg</td>
+                    <td>Facebook</td>
+                    <td>$1300</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>rajib</td>
+                    <td>goggle</td>
+                    <td>$1200</td>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>tutul</td>
+                    <td>instragram</td>
+                    <td>$1100</td>
+                </tr>
+            </tbody>
+        </table>
+
+
 </body>
 </html>

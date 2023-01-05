@@ -1,0 +1,40 @@
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+.line{
+    display: inline;
+    margin: 0px;
+}
+
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid red;
+    padding: 15px;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+}
+nav li:hover {
+    background-color: gray;
+
+}
+nav li a{
+    text-decoration: none;
+}
+nav li .dropdown{
+    display: none;
+    position:absolute;
+    background-color: yellowgreen;
+    padding: 5px;
+}
+
+nav li:hover > .dropdown{
+ display: block;
+}
